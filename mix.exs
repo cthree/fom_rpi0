@@ -33,9 +33,9 @@ defmodule NervesSystemRpi0.Mixfile do
   end
 
   defp package do
-    [maintainers: ["Timothy Mecklem", "Frank Hunleth"],
+    [maintainers: ["Erik Petersen"],
     files: ["LICENSE", "mix.exs", "nerves_defconfig", "nerves.exs", "README.md", "VERSION", "rootfs-additions", "fwup.conf", "cmdline.txt", "linux-4.4.defconfig", "config.txt", "post-createfs.sh"],
      licenses: ["Apache 2.0"],
-     links: %{"Github" => "https://github.com/nerves-project/nerves_system_rpi0"}]
+     links: %{"Github" => "https://github.com/cthree/fom_rpi0"}]
   end
 end
